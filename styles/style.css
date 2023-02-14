@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+}
+
+section {
+    width: 75%;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: dimgrey;
+    border-radius: 7px;
+}
+
+.heading {
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.main-container {
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: burlywood;
+    border: 2px solid black;
+}
+
+.hr {
+    border: 1px solid black;
+}
+
+.edit-container {
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.edit-container div {
+    display: flex;
+    gap: 7px;
+}
+
+#bold-icon,
+#italic-icon,
+#underline-icon,
+#left-icon,
+#center-icon,
+#right-icon,
+#justify-icon {
+    padding: 5px 10px;
+    border-radius: 7px;
+}
+
+#font-size-field {
+    width: 45px;
+    padding: 0 5px;
+}
+
+#color-input {
+    border: none;
+}
+
+#textarea-field {
+    width: 100%;
+    height: 300px;
+    margin-top: 15px;
+    padding: 7px;
+}
+
+#font-size-field:focus,
+#textarea-field:focus {
+    outline: 1px solid black;
+}
+
+/* style for classList.toggle */
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.bg-color {
+    background-color: black;
+}
+
+.text-color {
+    color: white;
+}

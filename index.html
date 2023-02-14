@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Editor</title>
+    <link rel="icon" type="image/x-icon" href="./icons/icon.png">
+    <!-- stylesheet link -->
+    <link rel="stylesheet" href="./styles/style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/e713737a14.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section>
+        <h1 class="heading">My Text Editor</h1>
+        <div class="main-container">
+            <div class="edit-container">
+                <div>
+                    <i id="bold-icon" class="fa-solid fa-b"></i>
+                    <i id="italic-icon" class="fa-solid fa-italic"></i>
+                    <i id="underline-icon" class="fa-solid fa-underline"></i>
+                </div>
+                <div>
+                    <i id="left-icon" class="fa-solid fa-align-left"></i>
+                    <i id="center-icon" class="fa-solid fa-align-center"></i>
+                    <i id="right-icon" class="fa-solid fa-align-right"></i>
+                    <i id="justify-icon" class="fa-solid fa-align-justify"></i>
+                </div>
+                <div>
+                    <input type="number" name="" id="font-size-field">
+                    <input type="color" name="" id="color-field">
+                </div>
+            </div>
+            <hr class="hr">
+            <div class="edit-body">
+                <textarea name="" id="textarea-field"></textarea>
+            </div>
+        </div>
+    </section>
+    <script src="./js/text-editor.js"></script>
+</body>
+
+</html>
